@@ -1,0 +1,173 @@
+body {
+	background: #000000;
+	color: #00FF00;
+	font-family: "Courier New", monospace;
+	margin: 20px;
+}
+nav {
+	text-align: center;
+	border-bottom: 2px dashed #00FF00;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+a {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF0000;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	border: 4px ridge #808080;
+	padding: 20px;
+	background-color: #111111;
+}
+h1 {
+	text-align: center;
+	font-family: "Comic Sans MS", serif;
+	color: #FF00FF;
+	/*text-shadow: 2px 2px #FFFFFF;*/
+}
+.blink {
+	animation: blinker 1.5s linear infinite;
+	color: #FF0000;
+	font-weight: bold;
+}
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+#visiter-count {
+	text-align: center;
+	margin-top: 40px;
+}
+#home-img-placeholder {
+	border: 1px solid #00FF00;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+	line-height: 150px;
+	color: #888
+}
+.foot {
+	text-align: center;
+}
+
+/* employes.html */
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 2px;
+	background-color: #222222;
+}
+th {
+	background-color: #008080;
+	color: #FFFFFF;
+	padding: 5px;
+	border: 3px outset #00FFFF;
+}
+td {
+	padding: 10px;
+	border: 3px inset #808080;
+	text-align: center;
+}
+.red-text {
+	color: #FF0000;
+	font-weight: bold;
+}
+.emp-img-placeholder {
+	border: 1px solid #0000FF;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 150px;
+	color: #888;
+	background-color: #444444;
+	margin: auto;
+}
+
+/* attractions.html */
+h3 {
+	background-color: #000080;
+	color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid white;
+	display: inline-block;
+}
+.status-ok {
+	color: #00FF00;
+	font-weight: bold;
+}
+.status-danger {
+	color: #FF0000;
+	font-weight: bold;
+	animation: blinker 1s linear infinite;
+}
+hr.retro-line {
+	border: 0;
+	height: 3px;
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+	margin: 30px 0;
+}
+
+/* partenaires.html */
+#webring {
+	text-align: center;
+	margin: 20px 0;
+	padding: 15px;
+	border: 2px dotted #00FF00;
+	background-color: #111111;
+}
+#terminal {
+	background-color: #001100;
+	padding: 15px;
+	border: 1px solid #00FF00;
+	font-family: monospace;
+	margin-top: 30px;
+}
+.term-error {
+	color: #FF0000;
+	font-weight: bold;
+}
+.term-blink {
+	animation: blinker 0.5s linear infinite;
+}
+
+/* telechargements.html */
+.warn-box {
+	border: 2px dashed #FF0000;
+	background-color: #330000;
+	color: #FFFF00;
+	padding: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.download-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #111111;
+	margin-bottom: 20px;
+}
+.download-table th {
+	background-color: #000080;
+	color: #FFFFFF;
+	border: 2px solid #C0C0C0;
+	padding: 8px;
+}
+.download-table td {
+	border: 1px solid #555555;
+	padding: 10px;
+	text-align: center;
+	color: #C0C0C0;
+}
+.virus-scan {
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px solid #00FF00;
+	padding-top: 10px;
+}
